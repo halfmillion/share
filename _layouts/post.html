@@ -94,8 +94,11 @@ layout: default
 				</div>
 
 			</div>
-			{% if site.disqus-identifier %}
+			{% if site.comments.disqus %}
 				{% include disqus-comments.html %}
+			{% endif %}
+			{% if site.comments.gitalk %}
+				{% include gitalk-comments.html %}
 			{% endif %}
 	</article> <!-- /.post -->
 

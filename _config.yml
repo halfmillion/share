@@ -57,9 +57,18 @@ author-avatar: 09.jpg
 
 
 #-------------------------------
+comments: 
 # Comment Section (Disqus)
-# disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
-
+  disqus: false
+  disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+# Comment Section (Gitalk)
+  gitalk: true
+  gitalk_clientID: '72922632d15adc67b946'
+  gitalk_Secret: '51c78d9feb5d12ad9beaf982307e410d3523f2ec'
+  gitalk_repo: 'halfmillion.github.io'
+  gitalk_owner: 'halfmillion'
+  gitalk_admin: 'halfmillion'
+  distractionFreeMode: true
 
 #-------------------------------
 # Instagram Feed
