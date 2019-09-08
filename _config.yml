@@ -65,7 +65,7 @@ comments:
   gitalk: true
   gitalk_clientID: 'b2b4042f50c60750c4f2'
   gitalk_Secret: '9546863ed4f853a116a360abe1546e5efecd035b'
-  gitalk_repo: 'halfmillion.github.io/share'
+  gitalk_repo: 'share'
   gitalk_owner: 'halfmillion'
   gitalk_admin: 'halfmillion'
   distractionFreeMode: true
