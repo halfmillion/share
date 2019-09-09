@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll! 2"
+title:  "Welcome to Jekyll!"
 date:   2019-09-07 10:04:00 +0800
-image:  11.jpg
+image:  test.png
 tags: jekyll update
 published: true
 ---
