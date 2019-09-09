@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/welcome-to-jekyll-copy/</loc>
+<loc>https://halfmillion.cn/welcome-to-jekyll-copy/</loc>
 <lastmod>2019-09-07T02:04:00+00:00</lastmod>
 </url>
 <url>
-<loc>/welcome-to-jekyll/</loc>
+<loc>https://halfmillion.cn/welcome-to-jekyll/</loc>
 <lastmod>2019-09-07T02:04:00+00:00</lastmod>
 </url>
 <url>
-<loc>/%E5%85%B3%E4%BA%8E/</loc>
+<loc>https://halfmillion.cn/%E5%85%B3%E4%BA%8E/</loc>
 </url>
 <url>
-<loc>/</loc>
+<loc>https://halfmillion.cn/</loc>
 </url>
 <url>
-<loc>/tags/</loc>
+<loc>https://halfmillion.cn/tags/</loc>
 </url>
 </urlset>

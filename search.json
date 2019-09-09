@@ -1,17 +1,17 @@
 [
   
     {
-      "title"    : "Welcome to Jekyll! 2",
+      "title"    : "欢迎!",
       "category" : "",
-      "tags"     : "jekyll and update",
+      "tags"     : "jekyll and 测试",
       "url"      : "/welcome-to-jekyll/",
       "date"     : "2019-09-07 02:04:00 +0000"
     } ,
   
     {
-      "title"    : "Welcome to Jekyll!",
+      "title"    : "你好!",
       "category" : "",
-      "tags"     : "jekyll and update",
+      "tags"     : "jekyll and 测试一",
       "url"      : "/welcome-to-jekyll-copy/",
       "date"     : "2019-09-07 02:04:00 +0000"
     } 
