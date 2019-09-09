@@ -2,7 +2,7 @@
 
     {% if page.id %}
     <div class="widget widget-recent">
-        <h3 class="widget-title">Recent Posts</h3>
+        <h3 class="widget-title">浮 塵</h3>
         {% for post in site.posts limit:4 %}
         <div class="recent-posts">
             {% if post.image %}
@@ -16,7 +16,7 @@
                 <h6 class="recent-title"><a
                         href="{{ root_url }}{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h6>
                 <div class="recent-date">
-                    <time datetime="{{ post.date | date_to_xmlschema }}">{{post.date | date: "%B %-d, %Y"}}</time>
+                    <time datetime="{{ post.date | date_to_xmlschema }}">{{page.date | date: '%m月 %-d日, %Y'}}</time>
                 </div>
             </div>
         </div>

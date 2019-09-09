@@ -19,7 +19,7 @@ layout: default
 						</div>
 						<h2 class="article-title"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h2>
 						<p class="article-excerpt">{% if post.description %}{{ post.description | strip_html | truncate: 163 }}{% else %}{{ post.content | strip_html | truncate: 163 }}{% endif %}</p>
-						<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">Read More</a>
+						<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">要 更 多</a>
 					</div>
 				</div>
 			</article> <!-- /.article-first -->
@@ -48,7 +48,7 @@ layout: default
 						<div class="article-content">
 							<div class="article-info">
 								<div class="article-date">
-									<span class="date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
+									<span class="date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%m月 %-d日, %Y" %}{{ post.date | date: date_format }}</time></span>
 								</div>
 								<div class="article-tag">
 								{% if post.tags.size >= 1 %}
